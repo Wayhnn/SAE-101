@@ -1,0 +1,48 @@
+Identification du test : validité de la première valeur
+Contexte d'exécution : début d'exécution
+Etapes de test à effectuer : taper une valeur au clavier
+
+Numéro du cas | Données de test | Résultats attendus | Résultats obtenus | Resultats du test 
+      1       |       12        | suite du programme |
+      2       |       -6        | suite du programme |
+      3       |       0         | suite du programme |
+      4       | 748967486456456 |      erreur        |
+                456486486456456
+                486456486486456
+                456464864864**99
+      5       |       4.0       | suite du programme |
+      6       |       a         |      erreur        |
+      7       |       5.12      |      erreur        |
+      8       |                 |      erreur        |
+      9       |     hbfuieh     |      erreur        |
+
+
+
+
+Identification du test : validité de la deuxième valeur
+Contexte d'exécution : suite du programme
+Etapes de test à effectuer : taper une valeur au clavier
+
+Numéro du cas | Données de test | Résultats attendus | Résultats obtenus | Resultats du test 
+      1       |       12        | suite du programme |
+      2       |       -6        | suite du programme |
+      3       |       0         | suite du programme |
+      4       | 748967486456456 |      erreur        |
+                456486486456456
+                486456486486456
+                456464864864**99
+      5       |       4.0       | suite du programme |
+      6       |       a         |      erreur        |
+      7       |       5.12      |      erreur        |
+      8       |                 |      erreur        |
+      9       |     hbfuieh     |      erreur        |
+
+Identification du test : calcule du max
+Contexte d'exécution : après avoir tester les 2 valeurs
+Etapes de test à effectuer : 
+
+Numéro du cas | Données de test | Résultats attendus | Résultats obtenus | Resultats du test 
+      1       |     12 et 5     |         5          |
+      2       |     4 et 4      |         4          |
+      3       |    -6 et -8     |        -8          |
+      4       |     0 et 9      |         9          |

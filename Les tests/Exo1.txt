@@ -1,0 +1,23 @@
+Si le nom n'existe pas
+
+>>> ERREUR : l'utilisateur n'existe pas
+
+Si le mot de passe n'est pas le bon (soit il n'existe pas soit il n'est pas associé au bon identifiant)
+
+>>> ERREUR : le mot de passe est invalide
+
+Si le mot de passe est vide
+
+>>> ERREUR : Veuillez indiquer votre mot de passe 
+
+Si l'identifiant est vide
+
+>>> ERREUR : Veuillez indiquer votre identifiant
+
+Si l'identifiant et le mot de passe est vide 
+
+>>> ERREUR : Veuillez indiquer remplir les champs de connection
+
+Si le mot de passe est correct (existe) et que l'identifiant associé au mot de passe est le bon
+
+>>> /*connection à la page*/

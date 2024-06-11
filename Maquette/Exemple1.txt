@@ -1,0 +1,151 @@
+
+| 5 3 * | * 7 * | * * * |
+| 6 * * | 1 9 5 | * * * |
+| * 9 8 | * * * | * 6 * |
+-------------------------
+| 8 * * | * 6 * | * * 3 |
+| 4 * * | 8 * 3 | * * 1 |
+| 7 * * | * 2 * | * * 6 |
+-------------------------
+| * 6 * | * * * | 2 8 * |
+| * * * | 4 1 9 | * * 5 |
+| * * * | * 8 * | * 7 9 |
+
+entrée de l'utilisateur :
+
+Indiquez la ligne de la valeur que vous souhaitez modifier :
+
+>>> 2
+
+Indiquez la colonne de la valeur que vous souhaitez modifier :
+
+>>> 2
+
+Choisissez la valeur que vous souhaitez  attribuer dans cette case (entier de 0 à 9):
+
+>>> 4
+
+| 5 3 * | * 7 * | * * * |
+| 6 4 * | 1 9 5 | * * * |
+| * 9 8 | * * * | * 6 * |
+-------------------------
+| 8 * * | * 6 * | * * 3 |
+| 4 * * | 8 * 3 | * * 1 |
+| 7 * * | * 2 * | * * 6 |
+-------------------------
+| * 6 * | * * * | 2 8 * |
+| * * * | 4 1 9 | * * 5 |
+| * * * | * 8 * | * 7 9 |
+
+Indiquez la ligne de la valeur que vous souhaitez modifier :
+
+>>> 2
+
+Indiquez la colonne de la valeur que vous souhaitez modifier :
+
+>>> 2
+
+Choisissez la valeur que vous souhaitez  attribuer dans cette case (entier de 0 à 9):
+
+>>> 5
+
+| 5 3 * | * 7 * | * * * |
+| 6 5 * | 1 9 5 | * * * |
+| * 9 8 | * * * | * 6 * |
+-------------------------
+| 8 * * | * 6 * | * * 3 |
+| 4 * * | 8 * 3 | * * 1 |
+| 7 * * | * 2 * | * * 6 |
+-------------------------
+| * 6 * | * * * | 2 8 * |
+| * * * | 4 1 9 | * * 5 |
+| * * * | * 8 * | * 7 9 |
+
+
+Indiquez la ligne de la valeur que vous souhaitez modifier :
+
+>>> 2
+
+Indiquez la colonne de la valeur que vous souhaitez modifier :
+
+>>> 2
+
+Choisissez la valeur que vous souhaitez  attribuer dans cette case (entier de 0 à 9):
+
+>>> 5
+
+| 5 3 * | * 7 * | * * * |
+| 6 5 * | 1 9 5 | * * * |
+| * 9 8 | * * * | * 6 * |
+-------------------------
+| 8 * * | * 6 * | * * 3 |
+| 4 * * | 8 * 3 | * * 1 |
+| 7 * * | * 2 * | * * 6 |
+-------------------------
+| * 6 * | * * * | 2 8 * |
+| * * * | 4 1 9 | * * 5 |
+| * * * | * 8 * | * 7 9 |
+
+
+Indiquez la ligne de la valeur que vous souhaitez modifier :
+
+>>> 4
+
+Indiquez la colonne de la valeur que vous souhaitez modifier :
+
+>>> 6
+
+Choisissez la valeur que vous souhaitez attribuer dans cette case (entier de 0 à 9):
+
+>>> 7
+
+| 5 3 * | * 7 * | * * * |
+| 6 5 * | 1 9 5 | * * * |
+| * 9 8 | * * * | * 6 * |
+-------------------------
+| 8 * * | * 6 7 | * * 3 |
+| 4 * * | 8 * 3 | * * 1 |
+| 7 * * | * 2 * | * * 6 |
+-------------------------
+| * 6 * | * * * | 2 8 * |
+| * * * | 4 1 9 | * * 5 |
+| * * * | * 8 * | * 7 9 |
+
+Indiquez la ligne de la valeur que vous souhaitez modifier :
+
+>>> 1
+
+Indiquez la colonne de la valeur que vous souhaitez modifier :
+
+>>> 1
+
+ERREUR : la case est une des cases de départ. Elle ne peut être modifier.
+Indiquez la ligne de la valeur que vous souhaitez modifier :
+
+>>> 9
+
+Indiquez la colonne de la valeur que vous souhaitez modifier :
+
+>>> 1
+
+Choisissez la valeur que vous souhaitez attribuer dans cette case (entier de 0 à 9): 
+
+>>> 15
+
+
+
+
+
+/* SI la case n'existe pas (coordonnée introuvable OU case est une case initiale) alors --> */ ERREUR : la case n'est pas valide
+/* + redemander la saisie */
+
+/* Vérifier que la valeur un entier entre 1 et n²*/
+
+/* Vérifier que la valeur est présente dans la ligne*/
+
+/* Vérifier que la valeur est présente dans le carré*/
+
+/*SI grille est complète*/
+
+
+/*Sinon redemander les saisies jusqu'à ce que la grille soit complète*/

@@ -1,0 +1,36 @@
+
+| 5 3 * | * 7 * | * * * |
+| 6 * * | 1 9 5 | * * * |
+| * 9 8 | * * * | * 6 * |
+-------------------------
+| 8 * * | * 6 * | * * 3 |
+| 4 * * | 8 * 3 | * * 1 |
+| 7 * * | * 2 * | * * 6 |
+-------------------------
+| * 6 * | * * * | 2 8 * |
+| * * * | 4 1 9 | * * 5 |
+| * * * | * 8 * | * 7 9 |
+
+
+
+Phrases de possibles :
+
+Indiquez la ligne de la valeur que vous souhaitez modifier (1 à n²):
+
+Indiquez la colonne de la valeur que vous souhaitez modifier (1 à n²) :
+
+Choisissez la valeur que vous souhaitez  attribuer dans cette case (entier de 0 à n²):
+
+ERREUR : la case saisie est en dehors de la grille
+
+ERREUR : la case est une des cases de départ. Elle ne peut être modifier.
+
+ERREUR : la valeur n'est pas comprise entre 1 et 9
+
+ERREUR : la valeur ne peut pas être positionné ici car elle est déjà présente dans la ligne.
+
+ERREUR : la valeur ne peut pas être positionné ici car elle est déjà présente dans la colonne.
+
+Victoire ! Vous avez réussi ! Vous êtes vraiment très intelligent.
+
+

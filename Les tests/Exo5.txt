@@ -1,0 +1,10 @@
+Identification du test : Calcule de la moyenne
+Contexte d'exécution : après avoir saisie une suite de valeurs valides
+Etapes de test à effectuer : taper une valeur au clavier
+
+Numéro du cas | Données de test | Résultats attendus | Résultats obtenus | Resultats du test 
+      1       |      2 4 8      |          7         |
+      2       |      0 0 0      |          0         |
+      3       |     9 0 -1      |        4.5         |  
+      5       |      -1         |      erreur        |
+      6       |     5 -1        |          5         |

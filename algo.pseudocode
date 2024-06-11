@@ -1,0 +1,82 @@
+programme sudoku c'est
+
+constante entier TAILLE := 3;
+
+/*Init des procédures*/
+procédure afficherRègles();
+procédure afficherGrille(entF tab : tableau);
+procédure saisieJoueur(sortF indiceLigne : entier, sortF indiceColonne : entier, sortF valeur : entier);
+procédure modifierTableau(entF/sortF tableau);
+fonction tableauFinit(entF tabSudoku : tableau) délivre booléen;
+fonction rejouer() délivre booléen;
+
+début
+    /*Initialisation des variables*/
+    tabSudoku : tableau[TAILLE**2][TAILLE**2] de entier;
+    jouer : booléen;
+    /*Initialisation du jeu*/
+    jouer := vrai;
+    afficherRègles();
+
+    /*tant que le joueur souhaite jouer OU rejouer, on continue le programme*/
+    tant que (jouer) faire
+
+        tabSudoku = .... /*remplissage de la grille*/
+
+        tant que (!tableauFinit(entE tabSudoku)) faire
+            afficherGrille(entF tab : tableau);
+            modifierTableau(entE/sortE tabSudoku);
+        finfaire
+
+        jouer := rejouer();
+
+    finfaire
+fin
+
+
+
+/*Procédures et Fonctions*/
+
+procédure afficherRègles() c'est
+début
+    /*Affiche les règles et le message de bienvenu.*/
+fin
+
+procédure afficherGrille(entF tab : tableau) c'est
+début
+    /*Afficher correctement la grille de soduku au joueur (tel que décrit dans la maquette).*/
+fin
+
+procédure saisieJoueur(sortF indiceLigne : entier, sortF indiceColonne : entier, sortF valeur : entier) c'est
+début
+    /*Demande au joueur de saisir l'indice de la ligne, de la colonne, 
+    et la valeur qu'il souhaite attribuer à la case (mais ne vérifie pas que les saisies sont valide)*/
+fin
+
+procédure procédure modifierTableau(entF/sortF tableau) c'est
+début
+    /*Procédure principale
+    Elle demande les saisie du joueur grâce à saisieJoueur(sortF indiceLigne : entier, sortF indiceColonne : entier, sortF valeur : entier) et les récupère. 
+    Puis, elle vérifie la validité des saisies.
+    Si la saisie est valide, elle modifie le tableau.
+    Sinon, elle ne fait rien et affiche le message d'ERREUR correspondant à l'erreur commise par l'utilisateurs*/
+fin
+
+
+
+fonction tableauFinit(entF tabSudoku : tableau) délivre booléen c'est
+début
+    /*Vérifie si le tableau est complété à 100% (il n'y ai pas de case vide)
+    renvoie vrai si c'est le cas
+    renvoie faux sinon*/
+    retourne estComplet
+fin
+
+fonction fonction rejouer() délivre booléen c'est
+début
+    /*Propose au joueur de rejouer en tappant O/N
+    si O : renvoie vrai
+    si N : renvoie faux
+    sinon : redemande la saisie*/
+    retourne souhaiteRejouer
+fin
